@@ -1,0 +1,21 @@
+{
+  "name": "job-application-sender",
+  "version": "1.0.0",
+  "description": "Job Application Email Sender: An open-source application to automate sending job applications to recruiters via email.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Sajid Sheikh",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsdom": "^22.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
